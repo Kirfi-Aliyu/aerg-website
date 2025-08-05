@@ -1,0 +1,84 @@
+<!-- AERG Programme V0-Ready Site Template -->
+
+<!-- Homepage -->
+<section id="home">
+  <header>
+    <h1>AERG Programme</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#involved">Get Involved</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="banner">
+    <h2>Empowering the Future</h2>
+    <p>Attract, Enroll, Retain, and Graduate (AERG) Programme</p>
+    <a href="#about" class="btn">Get Started</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <h2>About the AERG Programme</h2>
+  <p>The AERG Programme is aligned with SDG4 and designed to reduce the number of out-of-school children in Nigeria. It is structured around four core pillars:</p>
+  <ul>
+    <li><strong>Attract:</strong> Drive awareness and mobilization campaigns in communities</li>
+    <li><strong>Enroll:</strong> Streamline and simplify enrollment with locally adapted processes</li>
+    <li><strong>Retain:</strong> Provide learner welfare support including nutrition and health</li>
+    <li><strong>Graduate:</strong> Deliver academic and vocational skills to ensure educational continuity</li>
+  </ul>
+</section>
+
+<!-- How It Works -->
+<section id="how">
+  <h2>How It Works</h2>
+  <ol>
+    <li>Conduct community assessments and awareness outreach</li>
+    <li>Register and onboard learners with starter kits</li>
+    <li>Offer inclusive retention services such as school meals and medical aid</li>
+    <li>Facilitate structured learning with monitoring tools</li>
+    <li>Celebrate graduations with certification and media visibility</li>
+  </ol>
+</section>
+
+<!-- Get Involved -->
+<section id="involved">
+  <h2>Get Involved</h2>
+  <p>Your support matters. Be part of Nigeria's education transformation through the AERG Programme.</p>
+  <ul>
+    <li><a href="#">Volunteer Your Time</a></li>
+    <li><a href="#">Make a Donation</a></li>
+    <li><a href="#">Become a Partner</a></li>
+  </ul>
+</section>
+
+<!-- Impact -->
+<section id="impact">
+  <h2>Programme Impact</h2>
+  <ul>
+    <li>1,000,000+ children enrolled across Nigeria</li>
+    <li>20+ Local Government Areas actively participating</li>
+    <li>80%+ retention success rate</li>
+    <li>30+ stakeholder partnerships nationwide</li>
+  </ul>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <label>Name:</label><input type="text" name="name" required>
+    <label>Email:</label><input type="email" name="email" required>
+    <label>Message:</label><textarea name="message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <p>Email: info@aergprogramme.org | Phone: +234-000-0000</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 AERG Programme. Built with v0.dev. All Rights Reserved.</p>
+</footer>
