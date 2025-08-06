@@ -1,27 +1,45 @@
-<!-- AERG Programme V0-Ready Site Template -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AERG Programme</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header, footer { background: #1A237E; color: white; padding: 1em 2em; }
+    nav ul { list-style: none; padding: 0; display: flex; gap: 1em; }
+    nav ul li a { color: white; text-decoration: none; }
+    section { padding: 2em; }
+    .banner { background: #FBC02D; padding: 2em; text-align: center; }
+    .btn { display: inline-block; margin-top: 1em; padding: 0.5em 1em; background: #1A237E; color: white; text-decoration: none; border-radius: 4px; }
+    ul, ol { margin-left: 1.5em; }
+    form label { display: block; margin-top: 1em; }
+    input, textarea { width: 100%; padding: 0.5em; margin-top: 0.5em; }
+    button { margin-top: 1em; padding: 0.7em 1.5em; background: #1A237E; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
 
-<!-- Homepage -->
-<section id="home">
-  <header>
-    <h1>AERG Programme</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#how">How It Works</a></li>
-        <li><a href="#involved">Get Involved</a></li>
-        <li><a href="#impact">Impact</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div class="banner">
-    <h2>Empowering the Future</h2>
-    <p>Attract, Enroll, Retain, and Graduate (AERG) Programme</p>
-    <a href="#about" class="btn">Get Started</a>
-  </div>
-</section>
+<header>
+  <h1>AERG Programme</h1>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#involved">Get Involved</a></li>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-<!-- About -->
+<div class="banner">
+  <h2>Empowering the Future</h2>
+  <p>Attract, Enroll, Retain, and Graduate (AERG) Programme</p>
+  <a href="#about" class="btn">Get Started</a>
+</div>
+
 <section id="about">
   <h2>About the AERG Programme</h2>
   <p>The AERG Programme is aligned with SDG4 and designed to reduce the number of out-of-school children in Nigeria. It is structured around four core pillars:</p>
@@ -33,7 +51,6 @@
   </ul>
 </section>
 
-<!-- How It Works -->
 <section id="how">
   <h2>How It Works</h2>
   <ol>
@@ -45,7 +62,6 @@
   </ol>
 </section>
 
-<!-- Get Involved -->
 <section id="involved">
   <h2>Get Involved</h2>
   <p>Your support matters. Be part of Nigeria's education transformation through the AERG Programme.</p>
@@ -56,7 +72,6 @@
   </ul>
 </section>
 
-<!-- Impact -->
 <section id="impact">
   <h2>Programme Impact</h2>
   <ul>
@@ -67,18 +82,26 @@
   </ul>
 </section>
 
-<!-- Contact -->
 <section id="contact">
   <h2>Contact Us</h2>
   <form>
-    <label>Name:</label><input type="text" name="name" required>
-    <label>Email:</label><input type="email" name="email" required>
-    <label>Message:</label><textarea name="message" required></textarea>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
     <button type="submit">Send</button>
   </form>
   <p>Email: info@aergprogramme.org | Phone: +234-000-0000</p>
 </section>
 
 <footer>
-  <p>&copy; 2025 AERG Programme. Built with v0.dev. All Rights Reserved.</p>
+  <p>&copy; 2025 AERG Programme. Built with GitHub Pages. All Rights Reserved.</p>
 </footer>
+
+</body>
+</html>
